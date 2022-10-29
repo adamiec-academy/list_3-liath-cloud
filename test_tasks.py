@@ -23,7 +23,7 @@ def test_task_1_get_perfect_numbers(arg, expected_output):
 
 @pytest.mark.parametrize("arg, expected_output", FIBONACCI_SEQUENCE_DATA, ids=_data_args(FIBONACCI_SEQUENCE_DATA))
 def test_task_2_fibonacci_sequence(arg, expected_output):
-    from task_1 import fibonacci_sequence
+    from task_2 import fibonacci_sequence
     assert fibonacci_sequence(arg) == expected_output
 
 
