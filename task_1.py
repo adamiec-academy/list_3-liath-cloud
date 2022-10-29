@@ -16,4 +16,4 @@ def get_perfect_numbers(n):
             amount += 1
 
         no += 1
-    print(result)
+    return result
