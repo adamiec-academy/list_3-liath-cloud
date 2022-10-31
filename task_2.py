@@ -19,4 +19,4 @@ def fibonacci_sequence(n):
             result.append(next)
             amount += 1
 
-    print(result)
+    return result
