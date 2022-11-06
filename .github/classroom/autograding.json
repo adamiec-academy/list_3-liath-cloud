@@ -13,7 +13,7 @@
     {
       "name": "Test Task 2",
       "setup": "sudo -H pip3 install pytest",
-      "run": "pytest -vv -k task_1",
+      "run": "pytest -vv -k task_2",
       "input": "",
       "output": "",
       "comparison": "included",
