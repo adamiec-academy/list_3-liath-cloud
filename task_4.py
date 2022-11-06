@@ -62,4 +62,4 @@ def towers(data):
         odliczanie -= 1
 
         for l in range(3):
-            print(linia)
+            print(linia[0:-1])
